@@ -17,6 +17,6 @@ app.get('/hunt-admin', indexRoute)
   res.status(404).send('File not found!')
 })  */
 
-app.listen(8080, '127.0.0.1', () => {
+app.listen(8080, () => {
   console.log('ther server is running at port ' + 8080)
 })
